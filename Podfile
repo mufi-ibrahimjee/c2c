@@ -7,6 +7,7 @@ target 'c2cFINAL' do
 
   pod 'Firebase/Core’
 pod 'Firebase/Database'
+pod 'Firebase/Messaging'
 
 
 end

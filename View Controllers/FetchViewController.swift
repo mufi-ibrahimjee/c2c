@@ -2,7 +2,7 @@
 //  FetchViewController.swift
 //  c2cFINAL
 //
-//  Created by Ujjwal Khosla on 24/02/18.
+//  Created by Mufaddal Ibrahimjee on 24/02/18.
 //  Copyright © 2018 mufaddal. All rights reserved.
 //
 

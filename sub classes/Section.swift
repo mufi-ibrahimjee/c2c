@@ -2,7 +2,7 @@
 //  Section.swift
 //  c2cfinal
 //
-//  Created by Ujjwal Khosla on 22/02/18.
+//  Created by Mufaddal Ibrahimjee on 22/02/18.
 //  Copyright © 2018 mufaddal. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  WifiController.swift
 //  c2cfinal
 //
-//  Created by Ujjwal Khosla on 23/02/18.
+//  Created by Mufaddal Ibrahimjee on 23/02/18.
 //  Copyright © 2018 mufaddal. All rights reserved.
 //
 
@@ -18,6 +18,7 @@ class WifiController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("!!!!!")
+        title = "WiFi"
         
        
         // Do any additional setup after loading the view.
@@ -33,6 +34,14 @@ class WifiController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    
+    func showAlert(title :String , message : String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let bttn = UIAlertAction(title: "Done", style: .cancel, handler: nil)
+        alert.addAction(bttn)
+        present(alert, animated: true, completion: nil)
     }
     
    

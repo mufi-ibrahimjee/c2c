@@ -136,7 +136,7 @@ class QRViewController: UIViewController,AVCaptureMetadataOutputObjectsDelegate 
                         
                         let dictionary = snapshot.value as! [String:AnyObject]
                         if dictionary["checkinstatus"]! as! String == "true" {
-                            self.showAlert(title: "Hey!", message: "Your attendacne has already been marked")
+                            self.showAlert(title: "Hey!", message: "Your attendance has already been marked")
                             self.messageLabel.text = "Your attendacne has already been marked"
                         }
                         else {

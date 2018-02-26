@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		06180E968C5849637FBA4A13 /* Pods_c2cFINAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46759ABD75DACA63E8752E0B /* Pods_c2cFINAL.framework */; };
+		D60369F5204257840077AF4F /* ExpandableHeaderView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60369F1204257830077AF4F /* ExpandableHeaderView1.swift */; };
+		D60369F6204257840077AF4F /* ExpandableTavleViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60369F2204257840077AF4F /* ExpandableTavleViewController1.swift */; };
+		D60369F7204257840077AF4F /* Section1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60369F3204257840077AF4F /* Section1.swift */; };
+		D60369F8204257840077AF4F /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60369F4204257840077AF4F /* CustomTableViewCell.swift */; };
+		D60369FC20425ACC0077AF4F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60369FB20425ACC0077AF4F /* TableViewCell.swift */; };
+		D66B5D4B2041612000D04B91 /* fbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B5D4A2041612000D04B91 /* fbViewController.swift */; };
+		D66B5D4D204168CA00D04B91 /* c2cViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B5D4C204168CA00D04B91 /* c2cViewController.swift */; };
 		D696DD5120408DEE0073B000 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D696DD5020408DEE0073B000 /* AppDelegate.swift */; };
 		D696DD5620408DEE0073B000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D696DD5420408DEE0073B000 /* Main.storyboard */; };
 		D696DD5920408DEE0073B000 /* c2cFINAL.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D696DD5720408DEE0073B000 /* c2cFINAL.xcdatamodeld */; };
@@ -20,13 +27,11 @@
 		D696DD7320408E2D0073B000 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D696DD7120408E2D0073B000 /* ViewController.swift */; };
 		D696DD7420408E2D0073B000 /* WifiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D696DD7220408E2D0073B000 /* WifiController.swift */; };
 		D696DD7620408E3A0073B000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D696DD7520408E3A0073B000 /* Assets.xcassets */; };
-		D696DD7820408E430073B000 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D696DD7720408E430073B000 /* GoogleService-Info.plist */; };
-		D6DC656E204092F100CBD3D0 /* AboutUsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC6566204092F100CBD3D0 /* AboutUsTableViewCell.swift */; };
+		D6B33ACA20445830001E4092 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6B33AC92044582F001E4092 /* GoogleService-Info.plist */; };
 		D6DC656F204092F100CBD3D0 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC6567204092F100CBD3D0 /* Colors.swift */; };
 		D6DC6570204092F100CBD3D0 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC6568204092F100CBD3D0 /* LandingViewController.swift */; };
 		D6DC6572204092F100CBD3D0 /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC656A204092F100CBD3D0 /* TimelineTableViewCell.swift */; };
 		D6DC6575204095F300CBD3D0 /* FetchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC6574204095F300CBD3D0 /* FetchViewController.swift */; };
-		D6DC657A2040C13200CBD3D0 /* AboutUSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC65792040C13200CBD3D0 /* AboutUSViewController.swift */; };
 		D6DC65802040C45200CBD3D0 /* customsponsor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC657F2040C45200CBD3D0 /* customsponsor.swift */; };
 		D6DC65842040C69E00CBD3D0 /* sponsorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC65832040C69E00CBD3D0 /* sponsorTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -35,6 +40,13 @@
 		46759ABD75DACA63E8752E0B /* Pods_c2cFINAL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_c2cFINAL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C82385B6F9A431BB2FD6B77 /* Pods-c2cFINAL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-c2cFINAL.release.xcconfig"; path = "Pods/Target Support Files/Pods-c2cFINAL/Pods-c2cFINAL.release.xcconfig"; sourceTree = "<group>"; };
 		8C43E16A8200648FCA1DC880 /* Pods-c2cFINAL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-c2cFINAL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-c2cFINAL/Pods-c2cFINAL.debug.xcconfig"; sourceTree = "<group>"; };
+		D60369F1204257830077AF4F /* ExpandableHeaderView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView1.swift; sourceTree = "<group>"; };
+		D60369F2204257840077AF4F /* ExpandableTavleViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableTavleViewController1.swift; sourceTree = "<group>"; };
+		D60369F3204257840077AF4F /* Section1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section1.swift; sourceTree = "<group>"; };
+		D60369F4204257840077AF4F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		D60369FB20425ACC0077AF4F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D66B5D4A2041612000D04B91 /* fbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fbViewController.swift; sourceTree = "<group>"; };
+		D66B5D4C204168CA00D04B91 /* c2cViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = c2cViewController.swift; sourceTree = "<group>"; };
 		D696DD4D20408DEE0073B000 /* c2cFINAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = c2cFINAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D696DD5020408DEE0073B000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D696DD5520408DEE0073B000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,13 +61,12 @@
 		D696DD7120408E2D0073B000 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D696DD7220408E2D0073B000 /* WifiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WifiController.swift; sourceTree = "<group>"; };
 		D696DD7520408E3A0073B000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D696DD7720408E430073B000 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D6DC6566204092F100CBD3D0 /* AboutUsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsTableViewCell.swift; sourceTree = "<group>"; };
+		D6B33AC92044582F001E4092 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6B33ACB20445C76001E4092 /* c2cFINAL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = c2cFINAL.entitlements; sourceTree = "<group>"; };
 		D6DC6567204092F100CBD3D0 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		D6DC6568204092F100CBD3D0 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		D6DC656A204092F100CBD3D0 /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewCell.swift; sourceTree = "<group>"; };
 		D6DC6574204095F300CBD3D0 /* FetchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchViewController.swift; sourceTree = "<group>"; };
-		D6DC65792040C13200CBD3D0 /* AboutUSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUSViewController.swift; sourceTree = "<group>"; };
 		D6DC657F2040C45200CBD3D0 /* customsponsor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customsponsor.swift; sourceTree = "<group>"; };
 		D6DC65832040C69E00CBD3D0 /* sponsorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sponsorTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,7 +103,7 @@
 		D696DD4420408DEE0073B000 = {
 			isa = PBXGroup;
 			children = (
-				D6DC65782040C10700CBD3D0 /* New Group2 */,
+				D6DC65782040C10700CBD3D0 /* Data Handler */,
 				D6DC65772040C10300CBD3D0 /* sub classes */,
 				D6DC65762040C10000CBD3D0 /* View Controllers */,
 				D696DD4F20408DEE0073B000 /* c2cFINAL */,
@@ -113,11 +124,12 @@
 		D696DD4F20408DEE0073B000 /* c2cFINAL */ = {
 			isa = PBXGroup;
 			children = (
+				D6B33ACB20445C76001E4092 /* c2cFINAL.entitlements */,
 				D696DD5020408DEE0073B000 /* AppDelegate.swift */,
 				D696DD5420408DEE0073B000 /* Main.storyboard */,
 				D696DD5C20408DEE0073B000 /* LaunchScreen.storyboard */,
 				D696DD7520408E3A0073B000 /* Assets.xcassets */,
-				D696DD7720408E430073B000 /* GoogleService-Info.plist */,
+				D6B33AC92044582F001E4092 /* GoogleService-Info.plist */,
 				D696DD5F20408DEE0073B000 /* Info.plist */,
 				D696DD5720408DEE0073B000 /* c2cFINAL.xcdatamodeld */,
 			);
@@ -128,13 +140,15 @@
 			isa = PBXGroup;
 			children = (
 				D696DD6920408E1D0073B000 /* ExpandableTableViewController.swift */,
+				D60369F2204257840077AF4F /* ExpandableTavleViewController1.swift */,
 				D696DD6820408E1C0073B000 /* QRViewController.swift */,
 				D696DD7220408E2D0073B000 /* WifiController.swift */,
-				D6DC65792040C13200CBD3D0 /* AboutUSViewController.swift */,
 				D6DC6574204095F300CBD3D0 /* FetchViewController.swift */,
 				D696DD7120408E2D0073B000 /* ViewController.swift */,
 				D6DC6568204092F100CBD3D0 /* LandingViewController.swift */,
 				D6DC65832040C69E00CBD3D0 /* sponsorTableViewController.swift */,
+				D66B5D4A2041612000D04B91 /* fbViewController.swift */,
+				D66B5D4C204168CA00D04B91 /* c2cViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -143,21 +157,24 @@
 			isa = PBXGroup;
 			children = (
 				D696DD6520408E1C0073B000 /* ExpandableHeaderView.swift */,
+				D60369F1204257830077AF4F /* ExpandableHeaderView1.swift */,
 				D696DD6620408E1C0073B000 /* Section.swift */,
 				D6DC6567204092F100CBD3D0 /* Colors.swift */,
-				D6DC6566204092F100CBD3D0 /* AboutUsTableViewCell.swift */,
 				D6DC657F2040C45200CBD3D0 /* customsponsor.swift */,
 				D6DC656A204092F100CBD3D0 /* TimelineTableViewCell.swift */,
+				D60369F3204257840077AF4F /* Section1.swift */,
+				D60369F4204257840077AF4F /* CustomTableViewCell.swift */,
+				D60369FB20425ACC0077AF4F /* TableViewCell.swift */,
 			);
 			path = "sub classes";
 			sourceTree = "<group>";
 		};
-		D6DC65782040C10700CBD3D0 /* New Group2 */ = {
+		D6DC65782040C10700CBD3D0 /* Data Handler */ = {
 			isa = PBXGroup;
 			children = (
 				D696DD6720408E1C0073B000 /* CoreDataHandler.swift */,
 			);
-			path = "New Group2";
+			path = "Data Handler";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +213,11 @@
 					D696DD4C20408DEE0073B000 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -223,7 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D696DD5E20408DEE0073B000 /* LaunchScreen.storyboard in Resources */,
-				D696DD7820408E430073B000 /* GoogleService-Info.plist in Resources */,
+				D6B33ACA20445830001E4092 /* GoogleService-Info.plist in Resources */,
 				D696DD7620408E3A0073B000 /* Assets.xcassets in Resources */,
 				D696DD5620408DEE0073B000 /* Main.storyboard in Resources */,
 			);
@@ -258,12 +280,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-c2cFINAL/Pods-c2cFINAL-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -295,22 +319,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				D696DD6F20408E1D0073B000 /* ExpandableTableViewController.swift in Sources */,
-				D6DC657A2040C13200CBD3D0 /* AboutUSViewController.swift in Sources */,
 				D696DD5920408DEE0073B000 /* c2cFINAL.xcdatamodeld in Sources */,
+				D60369F8204257840077AF4F /* CustomTableViewCell.swift in Sources */,
 				D696DD7320408E2D0073B000 /* ViewController.swift in Sources */,
 				D6DC6575204095F300CBD3D0 /* FetchViewController.swift in Sources */,
-				D6DC656E204092F100CBD3D0 /* AboutUsTableViewCell.swift in Sources */,
+				D66B5D4D204168CA00D04B91 /* c2cViewController.swift in Sources */,
 				D696DD6D20408E1D0073B000 /* CoreDataHandler.swift in Sources */,
+				D60369F5204257840077AF4F /* ExpandableHeaderView1.swift in Sources */,
 				D696DD6C20408E1D0073B000 /* Section.swift in Sources */,
 				D6DC656F204092F100CBD3D0 /* Colors.swift in Sources */,
 				D696DD7420408E2D0073B000 /* WifiController.swift in Sources */,
 				D696DD6B20408E1D0073B000 /* ExpandableHeaderView.swift in Sources */,
+				D60369F6204257840077AF4F /* ExpandableTavleViewController1.swift in Sources */,
 				D696DD5120408DEE0073B000 /* AppDelegate.swift in Sources */,
 				D6DC65842040C69E00CBD3D0 /* sponsorTableViewController.swift in Sources */,
 				D6DC6572204092F100CBD3D0 /* TimelineTableViewCell.swift in Sources */,
+				D60369F7204257840077AF4F /* Section1.swift in Sources */,
+				D66B5D4B2041612000D04B91 /* fbViewController.swift in Sources */,
 				D6DC65802040C45200CBD3D0 /* customsponsor.swift in Sources */,
 				D6DC6570204092F100CBD3D0 /* LandingViewController.swift in Sources */,
 				D696DD6E20408E1D0073B000 /* QRViewController.swift in Sources */,
+				D60369FC20425ACC0077AF4F /* TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,11 +477,12 @@
 			baseConfigurationReference = 8C43E16A8200648FCA1DC880 /* Pods-c2cFINAL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = c2cFINAL/c2cFINAL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5SRJJ7JJB5;
+				DEVELOPMENT_TEAM = 7P7427A8BE;
 				INFOPLIST_FILE = c2cFINAL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mufaddal.c2cfinal;
+				PRODUCT_BUNDLE_IDENTIFIER = philip.c2cfinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,11 +494,12 @@
 			baseConfigurationReference = 4C82385B6F9A431BB2FD6B77 /* Pods-c2cFINAL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = c2cFINAL/c2cFINAL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5SRJJ7JJB5;
+				DEVELOPMENT_TEAM = 7P7427A8BE;
 				INFOPLIST_FILE = c2cFINAL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mufaddal.c2cfinal;
+				PRODUCT_BUNDLE_IDENTIFIER = philip.c2cfinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

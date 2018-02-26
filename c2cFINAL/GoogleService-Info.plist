@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>774805418693-f9asncaa53ld4i9u6lv7qucs8v1puvj1.apps.googleusercontent.com</string>
+	<string>774805418693-so1uk1u451cbet78occkccr549nug5v1.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.774805418693-f9asncaa53ld4i9u6lv7qucs8v1puvj1</string>
+	<string>com.googleusercontent.apps.774805418693-so1uk1u451cbet78occkccr549nug5v1</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBngyXK-nCnaMZpeC4pJGjMS2Yii7iJmqM</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.mufaddal.c2cfinal</string>
+	<string>philip.c2cfinal</string>
 	<key>PROJECT_ID</key>
 	<string>tool-7b7ca</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:774805418693:ios:13499acd2ea4f395</string>
+	<string>1:774805418693:ios:89105f44b2353e3d</string>
 	<key>DATABASE_URL</key>
 	<string>https://tool-7b7ca.firebaseio.com</string>
 </dict>

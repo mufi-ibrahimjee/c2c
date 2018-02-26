@@ -2,8 +2,8 @@
 //  LandingViewController.swift
 //  ACM
 //
-//  Created by Pranav Karnani on 21/02/18.
-//  Copyright © 2018 Pranav Karnani. All rights reserved.
+//  Created by Mufaddal Ibrahimjee on 21/02/18.
+//  Copyright © 2018 mufaddal. All rights reserved.
 //
 
 import UIKit
@@ -50,15 +50,15 @@ class LandingViewController: UIViewController, UITableViewDataSource, UITableVie
     }
     let tm1: [String] = ["Registration","Orientation","Opening Ceremony","Pitch Pits (team formation)","Hack Starts","Dinner","Quiz"]
     
-    let pm1: [String] = ["05:30 PM - 07:30 PM","05:30 PM - 07:30 PM","07:00 PM - 08:00 PM","08:00 PM - 09:00 PM","08:30 PM","09:00 PM - 10:00 PM","10:30 PM - 11:30 PM"]
+    let pm1: [String] = ["05:30 PM - 07:30 PM (10/03/18)","05:30 PM - 07:30 PM (10/03/18)","07:00 PM - 08:00 PM (10/03/18)","08:00 PM - 09:00 PM (10/03/18)","08:30 PM (10/03/18)","09:00 PM - 10:00 PM (10/03/18)","10:30 PM - 11:30 PM (10/03/18)"]
     
     let tm2: [String] = ["Late Night Snack","Naptime","Coffee","Breakfast","Session 1","Session 2","Lunch","Technical Inspection","Snacks","Elimination Results","Music","Dinner","Jenga Challenge"]
     
-    let pm2: [String] = ["02:00 AM","02:00 AM","06:00 AM","08:00 AM - 09:00 AM","10:00 AM - 11:00 AM","12:00 PM - 01:00 PM","01:00 PM - 02:00 PM","03:00 PM","06:00 PM","07:00 PM","07:30 PM","09:00 PM - 10:00 PM","11:00 PM - 01:00 AM"]
+    let pm2: [String] = ["02:00 AM (11/03/18)","02:00 AM (11/03/18)","06:00 AM (11/03/18)","08:00 AM - 09:00 AM (11/03/18)","10:00 AM - 11:00 AM (11/03/18)","12:00 PM - 01:00 PM (11/03/18)","01:00 PM - 02:00 PM (11/03/18)","03:00 PM (11/03/18)","06:00 PM (11/03/18)","07:00 PM (11/03/18)","07:30 PM (11/03/18)","09:00 PM - 10:00 PM (11/03/18)","11:00 PM - 01:00 AM (11/03/18)"]
     
     let tm3: [String] = ["Late Night Snack","Naptime","Coffee","Alarming Call","Breakfast","Hack Ends","Expo","Experience Sharing","Closing Ceremony"]
     
-    let pm3: [String] = ["02:00 AM","02:00 AM","06:00 AM","07:00 AM","08:00 AM - 09:00 AM","08:30 AM","09:00 AM - 11:30 AM","11:30 AM - 12:00 PM","12:00 PM - 02:00 PM"]
+    let pm3: [String] = ["02:00 AM 12/03 (12/03/18)","02:00 AM (12/03/18)","06:00 AM (12/03/18)","07:00 AM (12/03/18)","08:00 AM - 09:00 AM (12/03/18)","08:30 AM (12/03/18)","09:00 AM - 11:30 AM (12/03/18)","11:30 AM - 12:00 PM (12/03/18)","12:00 PM - 02:00 PM (12/03/18)"]
     
     var tm : [String] = []
     var pm : [String] = []

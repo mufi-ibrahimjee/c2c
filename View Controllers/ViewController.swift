@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  c2cfinal
 //
-//  Created by Ujjwal Khosla on 21/02/18.
+//  Created by Mufaddal Ibrahimjee on 21/02/18.
 //  Copyright © 2018 mufaddal. All rights reserved.
 //
 
@@ -80,7 +80,7 @@ class ViewController: UIViewController {
                     }
                 }
                 else{
-                    self.showAlert(title: "Error", message: "Invalid Username")
+                    self.showAlert(title: "Error", message: "Invalid Username Or Password")
                 }
                 
             })

@@ -2,8 +2,8 @@
 //  File.swift
 //  ACM
 //
-//  Created by Pranav Karnani on 21/02/18.
-//  Copyright © 2018 Pranav Karnani. All rights reserved.
+//  Created by Mufaddal Ibrahimjee on 21/02/18.
+//  Copyright © 2018 Pranav mufaddal. All rights reserved.
 //
 
 import Foundation

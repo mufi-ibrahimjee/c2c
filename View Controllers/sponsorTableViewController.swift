@@ -2,7 +2,7 @@
 //  SponsorTableViewController.swift
 //  c2cfinal
 //
-//  Created by Ujjwal Khosla on 22/02/18.
+//  Created by Mufaddal Ibrahimjee on 22/02/18.
 //  Copyright © 2018 mufaddal. All rights reserved.
 //
 
@@ -12,7 +12,11 @@ import UIKit
 
 class sponsorTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let elements: [String] = ["acm_int","bala","Cblogo","custombaba","digitalocean","docker","dot_tech","fests.infologo","geek","git","github","HasuraLogoHorizontal","ibm","jetbrains","jsp","npm","ozone","product","sketch","skill","slack","stickermule","travis","twilio","wolfram2","zeplin","zulip"]
+    
+    
+    let elements: [String] = ["acm_int","git","bala","digitalocean","wolfram2","ozone","skill","geek","Cblogo","dot_tech","custombaba","docker","fests.infologo","github","HasuraLogoHorizontal","ibm","jetbrains","iconscout-1","jsp","npm","product","sketch","slack","stickermule","travis","twilio","zeplin","zulip"]
+   
+    let elements1: [String] = ["Parent Organization","Diversity Sponsor","Diversity Sponsor","Cloud Sponsor","Cloud Sponsor","Cloud Sponsor","Platform Sponsor","Coding Partner","Learning Partner","Domain Partner","Patrons","Patrons","Patrons","Patrons","Patrons","Patrons","Patrons","Patrons","Patrons","Patrons","Patrons","Patrons","Patrons","Patrons","Patrons","Patrons","Patrons","Patrons"]
     
     
     
@@ -44,7 +48,7 @@ class sponsorTableViewController: UIViewController, UITableViewDelegate, UITable
         
         // cell.cellView.layer.cornerRadius = cell.cellView.frame.height / 2
         // cell.frame = CGRectMake(0.0, 0.0, 320.0, 300);
-        cell.animalLbl.text = elements[indexPath.row]
+        cell.animalLbl.text = elements1[indexPath.row]
         cell.animalImage.image = UIImage(named: elements[indexPath.row])
         cell.cellView.layer.shadowRadius = 1
         cell.cellView.layer.shadowOpacity = 0.3
